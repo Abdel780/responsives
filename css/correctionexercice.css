@@ -82,3 +82,25 @@ footer{
     background-color:#33b5e5 ;
     color:#fff;
 }
+
+@media only screen and (max-width: 430px) {
+      
+    header{
+        background-color: red;
+    }
+    .zone_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+    }
+    
+    .zone_2 .col-3{
+        width: 50%;
+    }
+
+}
